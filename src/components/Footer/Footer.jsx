@@ -9,7 +9,7 @@ import facebook from '../../assets/facebook.png'
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className='blur footer-blur-left'></div>
+      {/* <div className='blur footer-blur-left'></div> */}
       {/* <div className='blur footer-blur-right'></div> */}
         <hr /><br />
         <div className='footer-images'>

@@ -11,8 +11,8 @@ const Pricing = () => {
             <span>YOUR JOURNEY</span>
             <span className='stroke-text'>NOW WITH US</span>
         </div>
-        <div className='blur pricing-blur-left'></div>
-        <div className='blur pricing-blur-right'></div>
+        {/* <div className='blur pricing-blur-left'></div> */}
+        {/* <div className='blur pricing-blur-right'></div> */}
 
         <div className='pricing-cards'>
            {

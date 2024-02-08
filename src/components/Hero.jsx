@@ -11,7 +11,7 @@ const Hero = () => {
                      duration:'3'}
   return (
     <div className='hero' id="hero">
-        <div className="blur hero-blur"></div>
+        {/* <div className="blur hero-blur"></div> */}
       <div className="left"
                 >
             <Header />

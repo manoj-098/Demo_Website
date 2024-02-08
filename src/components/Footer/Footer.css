@@ -25,12 +25,6 @@
         text-align: center;
         margin:1rem;
     }
-    .footer-blur-left{
-        height:10rem;
-        width:70rem;
-        left:auto;
-        background-color: rgb(235, 107, 16);
-    }
 }
 @media screen and (max-width:768px)
 {
