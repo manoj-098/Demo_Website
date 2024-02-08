@@ -7,18 +7,18 @@ export const testimonialsData = [
     image: image1,
     review:
       "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
-    name: 'MATHEW HENDRICKSON',
+    name: 'MATHEW HENRY',
     status : 'ENTREPRENEUR'
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
+    review: "Fitclub is the best ever thing that i had in my life and its programs are the best for anyone who thinks about fitness as a well settled career. ",
     name: 'JOHN KEVIN',
     status: 'COACH'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
+    review:' Ive already attained my ideal figure since I chose the Fitclub wisely and the appropriate strategy and program!- Its really Great',
     name: 'FRANKLIN',
     status: "CUSTOMER"
   }
