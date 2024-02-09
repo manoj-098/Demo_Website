@@ -2,6 +2,8 @@ import React from 'react'
 import '../Pricing/Pricing.css'
 import {plansData} from '../../data/plansData'
 import whiteTick from '../../assets/whiteTick.png'
+import Arrow from '../../assets/rightArrow.png'
+
 
 const Pricing = () => {
   return (
@@ -35,7 +37,8 @@ const Pricing = () => {
                     </div>
 
                     <div className="plan-footer">
-                        <span>See more benefits -></span>
+                        <span>See more benefits </span>
+                        {/* <img src={Arrow} alt="" /> */}
                     </div>    
                     <button className='btn'>Join now</button>
                 </div>
