@@ -18,8 +18,8 @@ const Pricing = () => {
 
         <div className='pricing-cards'>
            {
-            plansData.map(plan=>(
-                <div className="plan">
+            plansData.map((plan,index)=>(
+                <div className="plan" key={index}>
                     {/* <span className='plan-icon'>{plan.icon}</span> */}
                     {plan.icon}
                     <span className='plan-name'>{plan.name}</span>
@@ -27,8 +27,8 @@ const Pricing = () => {
                     
                     <div className="plan-features">
                         {
-                            plan.features.map(feature=>(
-                                <div className="feature">
+                            plan.features.map((feature,index)=>(
+                                <div className="feature"  key={index}>
                                     <img src={whiteTick} alt=''></img>
                                     <span>{feature}</span>
                                 </div>
